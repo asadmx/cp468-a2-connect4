@@ -1,0 +1,4 @@
+pairing,games,agent_a,agent_a_wins,agent_a_win_rate,agent_a_avg_time_sec,agent_b,agent_b_wins,agent_b_win_rate,agent_b_avg_time_sec,draws,draw_rate,seeds
+Random vs RuleBased,30,Random,0,0.0,1e-06,RuleBased,30,1.0,0.000119,0,0.0,42000-42000+29
+RuleBased vs Minimax,30,RuleBased,1,0.033,0.000218,Minimax,29,0.967,0.070977,0,0.0,42000-42000+29
+Minimax vs Random,30,Minimax,30,1.0,0.101048,Random,0,0.0,2e-06,0,0.0,42000-42000+29

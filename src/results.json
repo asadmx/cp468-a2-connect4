@@ -1,0 +1,861 @@
+{
+  "summaries": [
+    {
+      "pairing": "Random vs RuleBased",
+      "games": 30,
+      "Random_wins": 0,
+      "RuleBased_wins": 30,
+      "draws": 0,
+      "Random_win_rate": 0.0,
+      "RuleBased_win_rate": 1.0,
+      "draw_rate": 0.0,
+      "Random_avg_decision_time_sec": 1e-06,
+      "RuleBased_avg_decision_time_sec": 0.000119,
+      "seeds": "42000-42000+29"
+    },
+    {
+      "pairing": "RuleBased vs Minimax",
+      "games": 30,
+      "RuleBased_wins": 1,
+      "Minimax_wins": 29,
+      "draws": 0,
+      "RuleBased_win_rate": 0.033,
+      "Minimax_win_rate": 0.967,
+      "draw_rate": 0.0,
+      "RuleBased_avg_decision_time_sec": 0.000218,
+      "Minimax_avg_decision_time_sec": 0.070977,
+      "seeds": "42000-42000+29"
+    },
+    {
+      "pairing": "Minimax vs Random",
+      "games": 30,
+      "Minimax_wins": 30,
+      "Random_wins": 0,
+      "draws": 0,
+      "Minimax_win_rate": 1.0,
+      "Random_win_rate": 0.0,
+      "draw_rate": 0.0,
+      "Minimax_avg_decision_time_sec": 0.101048,
+      "Random_avg_decision_time_sec": 2e-06,
+      "seeds": "42000-42000+29"
+    }
+  ],
+  "games": {
+    "Random_vs_RuleBased": [
+      {
+        "winner": 2,
+        "moves": 8,
+        "avg_time_p1": 2.0999577827751637e-06,
+        "avg_time_p2": 0.00010145013220608234,
+        "seed": 42000,
+        "p1_name": "Random",
+        "p2_name": "RuleBased"
+      },
+      {
+        "winner": 2,
+        "moves": 14,
+        "avg_time_p1": 7.1429115320955e-07,
+        "avg_time_p2": 0.0001460999982165439,
+        "seed": 42001,
+        "p1_name": "Random",
+        "p2_name": "RuleBased"
+      },
+      {
+        "winner": 2,
+        "moves": 8,
+        "avg_time_p1": 7.249764166772366e-07,
+        "avg_time_p2": 9.539996972307563e-05,
+        "seed": 42002,
+        "p1_name": "Random",
+        "p2_name": "RuleBased"
+      },
+      {
+        "winner": 2,
+        "moves": 12,
+        "avg_time_p1": 7.333777224024137e-07,
+        "avg_time_p2": 0.00013286666944622993,
+        "seed": 42003,
+        "p1_name": "Random",
+        "p2_name": "RuleBased"
+      },
+      {
+        "winner": 2,
+        "moves": 18,
+        "avg_time_p1": 8.000319616662132e-07,
+        "avg_time_p2": 0.00018125560341609849,
+        "seed": 42004,
+        "p1_name": "Random",
+        "p2_name": "RuleBased"
+      },
+      {
+        "winner": 2,
+        "moves": 14,
+        "avg_time_p1": 7.142578916890281e-07,
+        "avg_time_p2": 0.0001320286121751581,
+        "seed": 42005,
+        "p1_name": "Random",
+        "p2_name": "RuleBased"
+      },
+      {
+        "winner": 2,
+        "moves": 8,
+        "avg_time_p1": 8.000642992556095e-07,
+        "avg_time_p2": 9.297503856942058e-05,
+        "seed": 42006,
+        "p1_name": "Random",
+        "p2_name": "RuleBased"
+      },
+      {
+        "winner": 2,
+        "moves": 10,
+        "avg_time_p1": 6.800051778554916e-07,
+        "avg_time_p2": 0.0001105000264942646,
+        "seed": 42007,
+        "p1_name": "Random",
+        "p2_name": "RuleBased"
+      },
+      {
+        "winner": 2,
+        "moves": 10,
+        "avg_time_p1": 7.400289177894592e-07,
+        "avg_time_p2": 0.00010969997383654117,
+        "seed": 42008,
+        "p1_name": "Random",
+        "p2_name": "RuleBased"
+      },
+      {
+        "winner": 2,
+        "moves": 10,
+        "avg_time_p1": 8.00006091594696e-07,
+        "avg_time_p2": 0.0001077000517398119,
+        "seed": 42009,
+        "p1_name": "Random",
+        "p2_name": "RuleBased"
+      },
+      {
+        "winner": 2,
+        "moves": 12,
+        "avg_time_p1": 6.499855468670527e-07,
+        "avg_time_p2": 0.0001286833236614863,
+        "seed": 42010,
+        "p1_name": "Random",
+        "p2_name": "RuleBased"
+      },
+      {
+        "winner": 2,
+        "moves": 10,
+        "avg_time_p1": 6.599817425012588e-07,
+        "avg_time_p2": 0.00011278004385530948,
+        "seed": 42011,
+        "p1_name": "Random",
+        "p2_name": "RuleBased"
+      },
+      {
+        "winner": 2,
+        "moves": 10,
+        "avg_time_p1": 6.800051778554916e-07,
+        "avg_time_p2": 0.00011249999515712261,
+        "seed": 42012,
+        "p1_name": "Random",
+        "p2_name": "RuleBased"
+      },
+      {
+        "winner": 2,
+        "moves": 16,
+        "avg_time_p1": 6.124610081315041e-07,
+        "avg_time_p2": 0.00016450000111944973,
+        "seed": 42013,
+        "p1_name": "Random",
+        "p2_name": "RuleBased"
+      },
+      {
+        "winner": 2,
+        "moves": 8,
+        "avg_time_p1": 7.00005330145359e-07,
+        "avg_time_p2": 9.200006024912e-05,
+        "seed": 42014,
+        "p1_name": "Random",
+        "p2_name": "RuleBased"
+      },
+      {
+        "winner": 1,
+        "moves": 7,
+        "avg_time_p1": 7.752497913315892e-05,
+        "avg_time_p2": 6.666717429955801e-07,
+        "seed": 42015,
+        "p1_name": "RuleBased",
+        "p2_name": "Random"
+      },
+      {
+        "winner": 1,
+        "moves": 13,
+        "avg_time_p1": 0.00013192856152142798,
+        "avg_time_p2": 5.667097866535187e-07,
+        "seed": 42016,
+        "p1_name": "RuleBased",
+        "p2_name": "Random"
+      },
+      {
+        "winner": 1,
+        "moves": 15,
+        "avg_time_p1": 0.0001440374762751162,
+        "avg_time_p2": 5.85735376392092e-07,
+        "seed": 42017,
+        "p1_name": "RuleBased",
+        "p2_name": "Random"
+      },
+      {
+        "winner": 1,
+        "moves": 9,
+        "avg_time_p1": 9.379992261528968e-05,
+        "avg_time_p2": 9.499490261077881e-07,
+        "seed": 42018,
+        "p1_name": "RuleBased",
+        "p2_name": "Random"
+      },
+      {
+        "winner": 1,
+        "moves": 11,
+        "avg_time_p1": 0.0001708833733573556,
+        "avg_time_p2": 9.599607437849045e-07,
+        "seed": 42019,
+        "p1_name": "RuleBased",
+        "p2_name": "Random"
+      },
+      {
+        "winner": 1,
+        "moves": 11,
+        "avg_time_p1": 0.00011715005772809188,
+        "avg_time_p2": 6.600283086299897e-07,
+        "seed": 42020,
+        "p1_name": "RuleBased",
+        "p2_name": "Random"
+      },
+      {
+        "winner": 1,
+        "moves": 9,
+        "avg_time_p1": 9.817997924983501e-05,
+        "avg_time_p2": 6.999471224844456e-07,
+        "seed": 42021,
+        "p1_name": "RuleBased",
+        "p2_name": "Random"
+      },
+      {
+        "winner": 1,
+        "moves": 7,
+        "avg_time_p1": 8.297502063214779e-05,
+        "avg_time_p2": 7.000441352526346e-07,
+        "seed": 42022,
+        "p1_name": "RuleBased",
+        "p2_name": "Random"
+      },
+      {
+        "winner": 1,
+        "moves": 17,
+        "avg_time_p1": 0.00017622216708130308,
+        "avg_time_p2": 6.874906830489635e-07,
+        "seed": 42023,
+        "p1_name": "RuleBased",
+        "p2_name": "Random"
+      },
+      {
+        "winner": 1,
+        "moves": 13,
+        "avg_time_p1": 0.00013101433536836078,
+        "avg_time_p2": 6.33338155845801e-07,
+        "seed": 42024,
+        "p1_name": "RuleBased",
+        "p2_name": "Random"
+      },
+      {
+        "winner": 1,
+        "moves": 9,
+        "avg_time_p1": 9.984001517295837e-05,
+        "avg_time_p2": 7.00005330145359e-07,
+        "seed": 42025,
+        "p1_name": "RuleBased",
+        "p2_name": "Random"
+      },
+      {
+        "winner": 1,
+        "moves": 15,
+        "avg_time_p1": 0.00014760007616132498,
+        "avg_time_p2": 7.428295378174101e-07,
+        "seed": 42026,
+        "p1_name": "RuleBased",
+        "p2_name": "Random"
+      },
+      {
+        "winner": 1,
+        "moves": 7,
+        "avg_time_p1": 7.660000119358301e-05,
+        "avg_time_p2": 6.332993507385254e-07,
+        "seed": 42027,
+        "p1_name": "RuleBased",
+        "p2_name": "Random"
+      },
+      {
+        "winner": 1,
+        "moves": 11,
+        "avg_time_p1": 0.00011105005008478959,
+        "avg_time_p2": 6.400048732757569e-07,
+        "seed": 42028,
+        "p1_name": "RuleBased",
+        "p2_name": "Random"
+      },
+      {
+        "winner": 1,
+        "moves": 9,
+        "avg_time_p1": 9.367996826767922e-05,
+        "avg_time_p2": 7.750350050628185e-07,
+        "seed": 42029,
+        "p1_name": "RuleBased",
+        "p2_name": "Random"
+      }
+    ],
+    "RuleBased_vs_Minimax": [
+      {
+        "winner": 2,
+        "moves": 22,
+        "avg_time_p1": 0.00020562724040990526,
+        "avg_time_p2": 0.05631989094598049,
+        "seed": 42000,
+        "p1_name": "RuleBased",
+        "p2_name": "Minimax"
+      },
+      {
+        "winner": 2,
+        "moves": 22,
+        "avg_time_p1": 0.00020275453359565952,
+        "avg_time_p2": 0.06712357274425979,
+        "seed": 42001,
+        "p1_name": "RuleBased",
+        "p2_name": "Minimax"
+      },
+      {
+        "winner": 2,
+        "moves": 28,
+        "avg_time_p1": 0.00025820002026323764,
+        "avg_time_p2": 0.0630549785814115,
+        "seed": 42002,
+        "p1_name": "RuleBased",
+        "p2_name": "Minimax"
+      },
+      {
+        "winner": 2,
+        "moves": 24,
+        "avg_time_p1": 0.0002128249810387691,
+        "avg_time_p2": 0.06521341668364282,
+        "seed": 42003,
+        "p1_name": "RuleBased",
+        "p2_name": "Minimax"
+      },
+      {
+        "winner": 1,
+        "moves": 13,
+        "avg_time_p1": 0.0001349714252033404,
+        "avg_time_p2": 0.06094034994021058,
+        "seed": 42004,
+        "p1_name": "RuleBased",
+        "p2_name": "Minimax"
+      },
+      {
+        "winner": 2,
+        "moves": 22,
+        "avg_time_p1": 0.00020945453169670972,
+        "avg_time_p2": 0.06757968181574886,
+        "seed": 42005,
+        "p1_name": "RuleBased",
+        "p2_name": "Minimax"
+      },
+      {
+        "winner": 2,
+        "moves": 22,
+        "avg_time_p1": 0.0002247091086412018,
+        "avg_time_p2": 0.06795363634062762,
+        "seed": 42006,
+        "p1_name": "RuleBased",
+        "p2_name": "Minimax"
+      },
+      {
+        "winner": 2,
+        "moves": 28,
+        "avg_time_p1": 0.00024187137439314808,
+        "avg_time_p2": 0.062395064309904616,
+        "seed": 42007,
+        "p1_name": "RuleBased",
+        "p2_name": "Minimax"
+      },
+      {
+        "winner": 2,
+        "moves": 24,
+        "avg_time_p1": 0.00021063332678750157,
+        "avg_time_p2": 0.06563966672789927,
+        "seed": 42008,
+        "p1_name": "RuleBased",
+        "p2_name": "Minimax"
+      },
+      {
+        "winner": 2,
+        "moves": 22,
+        "avg_time_p1": 0.00020481823858889666,
+        "avg_time_p2": 0.061076136411760344,
+        "seed": 42009,
+        "p1_name": "RuleBased",
+        "p2_name": "Minimax"
+      },
+      {
+        "winner": 2,
+        "moves": 22,
+        "avg_time_p1": 0.00020352731966836885,
+        "avg_time_p2": 0.052353045479817825,
+        "seed": 42010,
+        "p1_name": "RuleBased",
+        "p2_name": "Minimax"
+      },
+      {
+        "winner": 2,
+        "moves": 26,
+        "avg_time_p1": 0.00026667689403089194,
+        "avg_time_p2": 0.07393940765625583,
+        "seed": 42011,
+        "p1_name": "RuleBased",
+        "p2_name": "Minimax"
+      },
+      {
+        "winner": 2,
+        "moves": 28,
+        "avg_time_p1": 0.0002418714076546686,
+        "avg_time_p2": 0.06376501427231622,
+        "seed": 42012,
+        "p1_name": "RuleBased",
+        "p2_name": "Minimax"
+      },
+      {
+        "winner": 2,
+        "moves": 24,
+        "avg_time_p1": 0.00024883334602539736,
+        "avg_time_p2": 0.08085168337371822,
+        "seed": 42013,
+        "p1_name": "RuleBased",
+        "p2_name": "Minimax"
+      },
+      {
+        "winner": 2,
+        "moves": 24,
+        "avg_time_p1": 0.00023485830752179027,
+        "avg_time_p2": 0.060904799960553646,
+        "seed": 42014,
+        "p1_name": "RuleBased",
+        "p2_name": "Minimax"
+      },
+      {
+        "winner": 1,
+        "moves": 9,
+        "avg_time_p1": 0.07333202003501356,
+        "avg_time_p2": 0.0001253750524483621,
+        "seed": 42015,
+        "p1_name": "Minimax",
+        "p2_name": "RuleBased"
+      },
+      {
+        "winner": 1,
+        "moves": 15,
+        "avg_time_p1": 0.08127613752731122,
+        "avg_time_p2": 0.0002648571306573493,
+        "seed": 42016,
+        "p1_name": "Minimax",
+        "p2_name": "RuleBased"
+      },
+      {
+        "winner": 1,
+        "moves": 17,
+        "avg_time_p1": 0.09514005552046001,
+        "avg_time_p2": 0.00022958754561841488,
+        "seed": 42017,
+        "p1_name": "Minimax",
+        "p2_name": "RuleBased"
+      },
+      {
+        "winner": 1,
+        "moves": 9,
+        "avg_time_p1": 0.07410415997728706,
+        "avg_time_p2": 0.00011479994282126427,
+        "seed": 42018,
+        "p1_name": "Minimax",
+        "p2_name": "RuleBased"
+      },
+      {
+        "winner": 1,
+        "moves": 15,
+        "avg_time_p1": 0.07391507501597516,
+        "avg_time_p2": 0.00023692852950521877,
+        "seed": 42019,
+        "p1_name": "Minimax",
+        "p2_name": "RuleBased"
+      },
+      {
+        "winner": 1,
+        "moves": 17,
+        "avg_time_p1": 0.07079798891209066,
+        "avg_time_p2": 0.00018992502009496093,
+        "seed": 42020,
+        "p1_name": "Minimax",
+        "p2_name": "RuleBased"
+      },
+      {
+        "winner": 1,
+        "moves": 17,
+        "avg_time_p1": 0.08052084444918567,
+        "avg_time_p2": 0.0002363499952480197,
+        "seed": 42021,
+        "p1_name": "Minimax",
+        "p2_name": "RuleBased"
+      },
+      {
+        "winner": 1,
+        "moves": 9,
+        "avg_time_p1": 0.09070535995997489,
+        "avg_time_p2": 0.00021580001339316368,
+        "seed": 42022,
+        "p1_name": "Minimax",
+        "p2_name": "RuleBased"
+      },
+      {
+        "winner": 1,
+        "moves": 15,
+        "avg_time_p1": 0.07682451253640465,
+        "avg_time_p2": 0.0003205714747309685,
+        "seed": 42023,
+        "p1_name": "Minimax",
+        "p2_name": "RuleBased"
+      },
+      {
+        "winner": 1,
+        "moves": 21,
+        "avg_time_p1": 0.07261275451376357,
+        "avg_time_p2": 0.0002783199539408088,
+        "seed": 42024,
+        "p1_name": "Minimax",
+        "p2_name": "RuleBased"
+      },
+      {
+        "winner": 1,
+        "moves": 17,
+        "avg_time_p1": 0.07041105558164418,
+        "avg_time_p2": 0.00025020004250109196,
+        "seed": 42025,
+        "p1_name": "Minimax",
+        "p2_name": "RuleBased"
+      },
+      {
+        "winner": 1,
+        "moves": 9,
+        "avg_time_p1": 0.0818016600329429,
+        "avg_time_p2": 0.00019039999460801482,
+        "seed": 42026,
+        "p1_name": "Minimax",
+        "p2_name": "RuleBased"
+      },
+      {
+        "winner": 1,
+        "moves": 9,
+        "avg_time_p1": 0.053250319929793476,
+        "avg_time_p2": 0.00012800010154023767,
+        "seed": 42027,
+        "p1_name": "Minimax",
+        "p2_name": "RuleBased"
+      },
+      {
+        "winner": 1,
+        "moves": 17,
+        "avg_time_p1": 0.08981566671799454,
+        "avg_time_p2": 0.00024743759422563016,
+        "seed": 42028,
+        "p1_name": "Minimax",
+        "p2_name": "RuleBased"
+      },
+      {
+        "winner": 1,
+        "moves": 17,
+        "avg_time_p1": 0.07569357778670059,
+        "avg_time_p2": 0.00020725000649690628,
+        "seed": 42029,
+        "p1_name": "Minimax",
+        "p2_name": "RuleBased"
+      }
+    ],
+    "Minimax_vs_Random": [
+      {
+        "winner": 1,
+        "moves": 7,
+        "avg_time_p1": 0.06527592497877777,
+        "avg_time_p2": 2.400018274784088e-06,
+        "seed": 42000,
+        "p1_name": "Minimax",
+        "p2_name": "Random"
+      },
+      {
+        "winner": 1,
+        "moves": 7,
+        "avg_time_p1": 0.08427912497427315,
+        "avg_time_p2": 1.2333815296490986e-06,
+        "seed": 42001,
+        "p1_name": "Minimax",
+        "p2_name": "Random"
+      },
+      {
+        "winner": 1,
+        "moves": 7,
+        "avg_time_p1": 0.068929674976971,
+        "avg_time_p2": 1.2665987014770508e-06,
+        "seed": 42002,
+        "p1_name": "Minimax",
+        "p2_name": "Random"
+      },
+      {
+        "winner": 1,
+        "moves": 11,
+        "avg_time_p1": 0.06895206666861971,
+        "avg_time_p2": 1.2999400496482849e-06,
+        "seed": 42003,
+        "p1_name": "Minimax",
+        "p2_name": "Random"
+      },
+      {
+        "winner": 1,
+        "moves": 11,
+        "avg_time_p1": 0.06955051666591316,
+        "avg_time_p2": 1.240009441971779e-06,
+        "seed": 42004,
+        "p1_name": "Minimax",
+        "p2_name": "Random"
+      },
+      {
+        "winner": 1,
+        "moves": 9,
+        "avg_time_p1": 0.0837401400320232,
+        "avg_time_p2": 1.1500087566673756e-06,
+        "seed": 42005,
+        "p1_name": "Minimax",
+        "p2_name": "Random"
+      },
+      {
+        "winner": 1,
+        "moves": 13,
+        "avg_time_p1": 0.09193598575490926,
+        "avg_time_p2": 1.6166595742106438e-06,
+        "seed": 42006,
+        "p1_name": "Minimax",
+        "p2_name": "Random"
+      },
+      {
+        "winner": 1,
+        "moves": 7,
+        "avg_time_p1": 0.06172090000472963,
+        "avg_time_p2": 1.4333054423332214e-06,
+        "seed": 42007,
+        "p1_name": "Minimax",
+        "p2_name": "Random"
+      },
+      {
+        "winner": 1,
+        "moves": 7,
+        "avg_time_p1": 0.10325787507463247,
+        "avg_time_p2": 1.6333845754464467e-06,
+        "seed": 42008,
+        "p1_name": "Minimax",
+        "p2_name": "Random"
+      },
+      {
+        "winner": 1,
+        "moves": 7,
+        "avg_time_p1": 0.10687095002504066,
+        "avg_time_p2": 1.7332689215739567e-06,
+        "seed": 42009,
+        "p1_name": "Minimax",
+        "p2_name": "Random"
+      },
+      {
+        "winner": 1,
+        "moves": 17,
+        "avg_time_p1": 0.15600594440992507,
+        "avg_time_p2": 1.7124984879046679e-06,
+        "seed": 42010,
+        "p1_name": "Minimax",
+        "p2_name": "Random"
+      },
+      {
+        "winner": 1,
+        "moves": 15,
+        "avg_time_p1": 0.08232426253380254,
+        "avg_time_p2": 1.971377059817314e-06,
+        "seed": 42011,
+        "p1_name": "Minimax",
+        "p2_name": "Random"
+      },
+      {
+        "winner": 1,
+        "moves": 9,
+        "avg_time_p1": 0.08873457997106016,
+        "avg_time_p2": 2.3999600671231747e-06,
+        "seed": 42012,
+        "p1_name": "Minimax",
+        "p2_name": "Random"
+      },
+      {
+        "winner": 1,
+        "moves": 9,
+        "avg_time_p1": 0.06804583999328315,
+        "avg_time_p2": 2.174987457692623e-06,
+        "seed": 42013,
+        "p1_name": "Minimax",
+        "p2_name": "Random"
+      },
+      {
+        "winner": 1,
+        "moves": 13,
+        "avg_time_p1": 0.11286598573704916,
+        "avg_time_p2": 2.366607077419758e-06,
+        "seed": 42014,
+        "p1_name": "Minimax",
+        "p2_name": "Random"
+      },
+      {
+        "winner": 2,
+        "moves": 8,
+        "avg_time_p1": 2.5500194169580936e-06,
+        "avg_time_p2": 0.12043612508568913,
+        "seed": 42015,
+        "p1_name": "Random",
+        "p2_name": "Minimax"
+      },
+      {
+        "winner": 2,
+        "moves": 12,
+        "avg_time_p1": 3.6832643672823906e-06,
+        "avg_time_p2": 0.10797189994870375,
+        "seed": 42016,
+        "p1_name": "Random",
+        "p2_name": "Minimax"
+      },
+      {
+        "winner": 2,
+        "moves": 14,
+        "avg_time_p1": 3.528614927615438e-06,
+        "avg_time_p2": 0.121309371465551,
+        "seed": 42017,
+        "p1_name": "Random",
+        "p2_name": "Minimax"
+      },
+      {
+        "winner": 2,
+        "moves": 14,
+        "avg_time_p1": 2.414254205567496e-06,
+        "avg_time_p2": 0.13655427148166513,
+        "seed": 42018,
+        "p1_name": "Random",
+        "p2_name": "Minimax"
+      },
+      {
+        "winner": 2,
+        "moves": 10,
+        "avg_time_p1": 2.3799482733011244e-06,
+        "avg_time_p2": 0.07821704000234604,
+        "seed": 42019,
+        "p1_name": "Random",
+        "p2_name": "Minimax"
+      },
+      {
+        "winner": 2,
+        "moves": 20,
+        "avg_time_p1": 1.7500016838312149e-06,
+        "avg_time_p2": 0.08310185999143868,
+        "seed": 42020,
+        "p1_name": "Random",
+        "p2_name": "Minimax"
+      },
+      {
+        "winner": 2,
+        "moves": 12,
+        "avg_time_p1": 1.9000144675374031e-06,
+        "avg_time_p2": 0.09939404996111989,
+        "seed": 42021,
+        "p1_name": "Random",
+        "p2_name": "Minimax"
+      },
+      {
+        "winner": 2,
+        "moves": 12,
+        "avg_time_p1": 1.8499558791518211e-06,
+        "avg_time_p2": 0.12098816665820777,
+        "seed": 42022,
+        "p1_name": "Random",
+        "p2_name": "Minimax"
+      },
+      {
+        "winner": 2,
+        "moves": 8,
+        "avg_time_p1": 1.500011421740055e-06,
+        "avg_time_p2": 0.12227752496255562,
+        "seed": 42023,
+        "p1_name": "Random",
+        "p2_name": "Minimax"
+      },
+      {
+        "winner": 2,
+        "moves": 10,
+        "avg_time_p1": 3.719981759786606e-06,
+        "avg_time_p2": 0.13777631996199488,
+        "seed": 42024,
+        "p1_name": "Random",
+        "p2_name": "Minimax"
+      },
+      {
+        "winner": 2,
+        "moves": 14,
+        "avg_time_p1": 3.371420981628554e-06,
+        "avg_time_p2": 0.13913094285609467,
+        "seed": 42025,
+        "p1_name": "Random",
+        "p2_name": "Minimax"
+      },
+      {
+        "winner": 2,
+        "moves": 12,
+        "avg_time_p1": 2.0667212083935738e-06,
+        "avg_time_p2": 0.1611354333969454,
+        "seed": 42026,
+        "p1_name": "Random",
+        "p2_name": "Minimax"
+      },
+      {
+        "winner": 2,
+        "moves": 10,
+        "avg_time_p1": 1.8800143152475358e-06,
+        "avg_time_p2": 0.12142373998649418,
+        "seed": 42027,
+        "p1_name": "Random",
+        "p2_name": "Minimax"
+      },
+      {
+        "winner": 2,
+        "moves": 10,
+        "avg_time_p1": 1.3599172234535218e-06,
+        "avg_time_p2": 0.09984735995531083,
+        "seed": 42028,
+        "p1_name": "Random",
+        "p2_name": "Minimax"
+      },
+      {
+        "winner": 2,
+        "moves": 10,
+        "avg_time_p1": 1.8800143152475358e-06,
+        "avg_time_p2": 0.06937971995212137,
+        "seed": 42029,
+        "p1_name": "Random",
+        "p2_name": "Minimax"
+      }
+    ]
+  }
+}
